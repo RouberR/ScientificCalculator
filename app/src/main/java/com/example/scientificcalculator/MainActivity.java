@@ -63,6 +63,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void clearBTNPush(View view){
         displayText.setText("");
+        previousCalculation.setText("");
     }
 
     public void equalsBTNPush(View view){
@@ -101,8 +102,8 @@ public class MainActivity extends AppCompatActivity {
     public void LogTextBTN(View view){updateText("log(");}
     public void squareRootTextBTN(View view){updateText("sqrt(");}
     public void absoluteValueTextBTN(View view){updateText("abc(");}
-    public void piTextBTN(View view){updateText("pi(");}
-    public void eTextBTN(View view){updateText("e(");}
+    public void piTextBTN(View view){updateText("pi");}
+    public void eTextBTN(View view){updateText("e");}
     public void xSquaredTextBTN(View view){updateText("^(2)");}
     public void xPowerYTextBTN(View view){updateText("^");}
     public void isPrimeFunctionTextBTN(View view){updateText("ispr(");}
